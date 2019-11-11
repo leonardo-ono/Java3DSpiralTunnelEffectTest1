@@ -40,7 +40,7 @@ public class View extends JPanel {
     }
     
     public void start() {
-        // main loop, something close to 60 fps
+        // main loop, something close to 30 fps
         timer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
